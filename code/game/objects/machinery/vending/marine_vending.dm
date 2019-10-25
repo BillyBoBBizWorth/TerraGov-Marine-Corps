@@ -7,7 +7,7 @@
 	icon_vend = "marinearmory-vend"
 	icon_deny = "marinearmory"
 	req_access = null
-	req_one_access = list(ACCESS_MARINE_LOGISTICS, ACCESS_MARINE_PREP, ACCESS_MARINE_CARGO)
+	req_one_access = list(ACCESS_MARINE_LOGISTICS, ACCESS_MARINE_PREP, ACCESS_MARINE_)
 	wrenchable = FALSE
 	tokensupport = TOKEN_MARINE
 
@@ -131,6 +131,7 @@
 					/obj/item/storage/box/nade_box = 1,
 					/obj/item/storage/box/m94 = 30,
 					/obj/item/flashlight/combat = 10,
+					/obj/item/weapon/combat_knife = 20,
 					/obj/item/clothing/mask/gas = 10
 					)
 
